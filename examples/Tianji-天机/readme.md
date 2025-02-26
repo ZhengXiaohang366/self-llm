@@ -58,8 +58,8 @@ import datetime
 #              "temperature": 1} # 多样化输出
 #         ],
 #     )
-#     res = response.choices[0].message.content
-#     return res
+#     res.txt = response.choices[0].message.content
+#     return res.txt
 
 # deepseek
 from openai import OpenAI

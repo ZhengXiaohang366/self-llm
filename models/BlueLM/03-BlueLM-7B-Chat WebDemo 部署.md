@@ -96,7 +96,7 @@ def build_prompt(messages, prompt):
     prompt - 当前用户输入的文本。
 
     返回值:
-    res - 构建好的包含会话历史和当前用户提示的字符串。
+    res.txt - 构建好的包含会话历史和当前用户提示的字符串。
     """
     res = ""
     # 遍历历史消息，构建会话历史字符串

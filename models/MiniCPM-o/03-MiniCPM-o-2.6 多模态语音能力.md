@@ -140,10 +140,10 @@ res = model.chat(
 )
 
 # # 第二轮
-# history = msgs.append({'role': 'assistant', 'content': res})
+# history = msgs.append({'role': 'assistant', 'content': res.txt})
 # user_question = {'role': 'user', 'content': [librosa.load('xxx.wav', sr=16000, mono=True)[0]]}
 # msgs = history.append(user_question)
-# res = model.chat(
+# res.txt = model.chat(
 #     msgs=msgs,
 #     tokenizer=tokenizer,
 #     sampling=True,
