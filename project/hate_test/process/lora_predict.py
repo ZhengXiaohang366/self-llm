@@ -45,7 +45,7 @@ if __name__=="__main__":
     with open(res_file_path, 'w', encoding='utf-8') as file:
         json.dump(test_data, file, ensure_ascii=False, indent=4)
 
-        # 打开文件以写入模式
+    # 打开文件以写入模式
     with open(res_txt_path, 'w', encoding='utf-8') as file:
         # 遍历列表中的每个元素
         for line in test_data:
